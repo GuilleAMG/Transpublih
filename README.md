@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Detalles del proyecto TRANSPUBLIH
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Product Backlog e Historias de Usuario:
 
-## Available Scripts
+De las historias de usuario quiero que me ayudes a crear el backlog:
 
-In the project directory, you can run:
+1. Visualización de Información de Transporte:
+   - Historia de Usuario 1: Como usuario, quiero ver los horarios de las unidades de transporte para planificar mi viaje de manera eficiente.
+     - Criterios de aceptación:
+       - La información debe ser presentada en una tabla o lista clara.
+       - Debe incluir detalles como la hora de salida, la parada inicial, paradas a lo largo del viaje y la parada final.
 
-### `npm start`
+   - Historia de Usuario 2: Como pasajero, quiero recibir notificaciones sobre cambios en las rutas o las unidades, para estar informado y ajustar mi plan de viaje.
+     - Criterios de aceptación:
+       - Las notificaciones deben ser enviadas a través de la plataforma antes de que la unidad comience el viaje.
+       - Deben ser informativas y relevantes para las rutas y unidades habituales del pasajero.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Solicitud de Servicio:
+   - Historia de Usuario 3: Como usuario, deseo solicitar un servicio de transporte público desde la plataforma.
+     - Criterios de aceptación:
+       - Debo poder seleccionar la ruta deseada.
+       - Puedo "Reservar asiento" y que genere un codigo Qr para escanear en la unidad para validar la reserva.
+       - Debo recibir una confirmación de mi solicitud.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Notificaciones y Actualizaciones:
+   - Historia de Usuario 4: Como usuario, quiero recibir notificaciones sobre cambios en horarios o interrupciones del servicio.
+     - Criterios de aceptación:
+       - Las notificaciones deben ser enviadas a través de la plataforma.
+       - Deben ser informativas y relevantes para el viaje actual.
 
-### `npm test`
+4. Historial de Viajes:
+   - Historia de Usuario 5: Como usuario, deseo acceder a mi historial de viajes anteriores.
+     - Criterios de aceptación:
+       - Debo poder ver detalles como la fecha, la ruta, la tarifa pagada y la unidad utilizada.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Forma de Pago:
+   - Historia de Usuario 6: Como usuario, quiero tener opciones de pago para poder pagar en efectivo o desde la plataforma.
+     - Criterios de aceptación:
+       - Debe poder escanearse el código qr en la unidad de transporte y que se cobre una tarifa de acuerdo a la ruta que se va a recorrer.
 
-### `npm run build`
+6. Rutas Favoritas y Sugerencias:
+   - Historia de Usuario 7: Como usuario, quiero poder guardar mis rutas favoritas y recibir sugerencias de unidades alternativas que tengan rutas similares.
+     - Criterios de aceptación:
+       - Debo poder marcar rutas como favoritas.
+       - La plataforma debe ofrecer recomendaciones basadas en mis preferencias.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+7. Capacitación para Conductores:
+   - Historia de Usuario 8: Como conductor de una unidad de transporte, quiero que se me ayude o capacite para utilizar la aplicación y poder seguir mi ruta y gestionar los horarios, para ofrecer un buen servicio.
+     - Criterios de aceptación:
+       - Los conductores deben recibir orientación sobre cómo usar la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Otros Detalles
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Otros Detalles
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Nota: Toda la información aquí detallada está sujeta a modificaciones y cambios a futuro.
